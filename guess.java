@@ -14,7 +14,7 @@ public class guess {
 				attempts++;
 			}
 			if (guess.equals(correctAnswer)) {
-				System.out.println("Congratulations");
+				System.out.println("Congratulations!");
 				break;
 				
 			}
@@ -24,5 +24,7 @@ public class guess {
 		}while(true);
 		System.out.println("You guessed "+ attempts + " times.");
 		
+
 	}
+    
 }
