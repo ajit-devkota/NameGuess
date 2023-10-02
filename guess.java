@@ -3,7 +3,7 @@ public class guess {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
-		String correctAnswer = "Emma";
+		String correctAnswer = "Emmaa";
 		String guess = " ";
 		int attempts = 0;
 		do {
